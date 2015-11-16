@@ -10,5 +10,5 @@
 </head>
 <body>
 <header>
-<?php show_nav("", "test"); ?>
+<?php show_nav(""); ?>
 </header>

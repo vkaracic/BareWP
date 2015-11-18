@@ -1,71 +1,13 @@
-/* SMARTPHONES */
 
-/* Portrait and Landscape */
-@media screen 
-  and (device-width: 320px) 
-  and (device-height: 640px)  {
-
-}
-
-/* Portrait */
-@media screen 
-  and (device-width: 320px) 
-  and (device-height: 640px) 
-  and (orientation: portrait) {
-
-}
-
-/* Landscape */
-@media screen 
-  and (device-width: 320px) 
-  and (device-height: 640px)  
-  and (orientation: landscape) {
-
-}
-
-
-/* TABLETS */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) {
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) {
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) {
-
-}
-
-/* Portrait and Landscape */
-@media 
-  (min-device-width: 800px) 
-  and (max-device-width: 1280px) {
-
-}
-
-/* Portrait */
-@media 
-  (max-device-width: 800px) 
-  and (orientation: portrait) { 
-
-}
-
-/* Landscape */
-@media 
-  (max-device-width: 1280px) 
-  and (orientation: landscape) { 
-
-}
+@media screen and (max-device-width: 320px) {}
+@media screen and (max-device-width: 360px) {}
+@media screen and (max-device-width: 480px) {}
+@media screen and (max-device-width: 640px) {}
+@media screen and (max-device-width: 768px) {}
+@media screen and (max-device-width: 960px) {}
+@media screen and (max-device-width: 1024px) {}
+@media screen and (max-device-width: 1280px) {}
+@media screen and (max-device-width: 1366px) {}
+@media screen and (max-device-width: 1440px) {}
+@media screen and (max-device-width: 1920px) {}
+@media screen and (max-device-width: 2560px) {}

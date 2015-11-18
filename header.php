@@ -7,6 +7,7 @@
     <title>BareWP theme</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <link href="wp-content/themes/BareWP/style.css" rel="stylesheet">
+    <link href="wp-content/themes/BareWP/responsive.css" rel="stylesheet">
 </head>
 <body>
 <header>

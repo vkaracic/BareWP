@@ -1,5 +1,12 @@
 <?php
 
+function barewp_setup() {
+    register_nav_menus(array(
+        'primary' => __( 'Primary Menu', 'barewp' ),
+    ));
+}
+add_action('after_setup_theme', 'barewp_setup');
+
 function show_nav($menu, $menu_class='menu') {
     $defaults = array(
         'theme_location'  => '',
@@ -21,5 +28,6 @@ function show_nav($menu, $menu_class='menu') {
     );
     wp_nav_menu( $defaults );
 };
+
 
 ?>

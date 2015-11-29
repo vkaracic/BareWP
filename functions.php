@@ -18,7 +18,7 @@ function show_nav($menu, $menu_class='menu') {
         'menu_id'         => '',
         'echo'            => true,
         'fallback_cb'     => 'wp_page_menu',
-        'before'          => 'asdf',
+        'before'          => '',
         'after'           => '',
         'link_before'     => '',
         'link_after'      => '',
@@ -29,5 +29,16 @@ function show_nav($menu, $menu_class='menu') {
     wp_nav_menu( $defaults );
 };
 
-
+add_theme_support( 'post-formats', array( 'aside', 'image', 'link', 'quote', 'status' ) );
+add_post_type_support( 'page', 'post-formats' );
+add_action( 'init', 'create_my_post_type' );
+function create_my_post_type() {
+    register_post_type( 'my_custom_post_type',
+      array(
+        'labels' => array( 'name' => __( 'Products' ) ),
+        'public' => true,
+        'supports' => array('title', 'editor', 'post-formats')
+    )
+  );
+}
 ?>
